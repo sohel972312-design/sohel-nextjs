@@ -7,11 +7,21 @@
   --transparent_theme: #02010100;
   --textlight: #c7c7c7;
   --textlight: #c7c7c7;
+  --transparent_theme: #02010100;
   
 }
 :root{
   --p-clr: #c7c7c7;
+  --green_theme:#9de600;
 }
 p{
   color:var(--p-clr);
+}
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }

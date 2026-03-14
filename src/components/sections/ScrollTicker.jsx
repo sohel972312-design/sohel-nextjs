@@ -17,10 +17,10 @@ const JavaSVG = () => (
 function TickerItem({ label }) {
   const icon =
     label === "Website Development" ? <JavaSVG /> :
-    label === "Digital Marketing" ? <i aria-hidden="true" className="w-8 h-8" /> :
-    label === "App Development" ? <i aria-hidden="true" className="w-8 h-8" /> :
-    label === "Graphic Design" ? <i aria-hidden="true" className="w-8 h-8" /> :
-    <i aria-hidden="true" className="w-8 h-8" />;
+      label === "Digital Marketing" ? <i aria-hidden="true" className="w-8 h-8" /> :
+        label === "App Development" ? <i aria-hidden="true" className="w-8 h-8" /> :
+          label === "Graphic Design" ? <i aria-hidden="true" className="w-8 h-8" /> :
+            <i aria-hidden="true" className="w-8 h-8" />;
 
   return (
     <div className="text-center font-semibold">
@@ -37,8 +37,8 @@ const tickerItems = [...items, ...items, ...items];
 
 export default function ScrollTicker() {
   return (
-    <div className="w-full overflow-hidden relative py-12 bg-black">
-      <div className="flex w-max gap-4 hover:pause" style={{ animation: 'scrollLeft 80s linear infinite' }}>
+    <div className="w-full overflow-hidden relative py-12 bg-transparent bg-[linear-gradient(180deg,var(--green_theme)_-60rem,#0a0a0a_100%)]">
+      <div className="flex w-max gap-2" style={{ animation: "scrollLeft 80s linear infinite" }}>
         {tickerItems.map((item, i) => (
           <TickerItem key={i} label={item.label} />
         ))}

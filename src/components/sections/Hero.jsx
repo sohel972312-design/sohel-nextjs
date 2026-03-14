@@ -5,7 +5,8 @@ import { PhoneIconSVG, SocialLinks } from "@/lib/shared";
 
 export default function Hero() {
   return (
-    <div className="relative bg-black pt-32 xl:pt-52 pb-10 md:pb-20">
+    <div className="relative bg-black pt-32 xl:pt-52   before:content-['']
+  before:absolute before:inset-0  before:block before:h-full before:opacity-[0.03] before:mix-blend-normal before:transition-all before:duration-300 before:bg-[radial-gradient(at_top_left,var(--green_theme)_30%,var(--transparent_theme)_70%)] *:before:w-[max(100%+var(--border-left-width)+var(--border-right-width),100%)]">
       <div className="absolute inset-0 bg-[radial-gradient(at_top_left,var(--green_theme)_30%,var(--transparent_theme)_70%)] opacity-18 pointer-events-none"></div>
       <div className="  ">
         <Container>
@@ -13,7 +14,7 @@ export default function Hero() {
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-12 gap-8">
 
             {/* Text */}
-            <div className="col-span-1 lg:col-span-1 xl:col-span-5 flex items-center justify-center">
+            <div className="col-span-1 lg:col-span-1 xl:col-span-5 xxl:col-span-4 flex items-center justify-center">
               <div className="text-center xl:text-left">
                 <div className="mb-3">
                   <div className="text-white text-2xl lg:text-2xl xl:text-3xl font-bold font-['Unbounded'] ">I&apos;m</div>
@@ -37,17 +38,16 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="col-span-1 lg:col-span-1 xl:col-span-3 mt-4 xl:mt-0 flex items-center justify-center">
-              <div className="px-12 xl:px-0 w-full border-b-3 sm:w-3xs border-brandgreen">
-                <Image
-                  src="https://kits.roxthemes.com/ethan/wp-content/uploads/2025/11/ethan2.webp"
-                  alt="Sohel Malek"
-                  width={500}
-                  height={600}
-                  className="w-full h-auto"
-                  priority
-                />
-              </div>
+            <div className="col-span-1 lg:col-span-1 xl:col-span-3 xxl:col-span-4 mt-4 xl:mt-0  text-center">
+              <Image
+                src="https://kits.roxthemes.com/ethan/wp-content/uploads/2025/11/ethan2.webp"
+                alt="Sohel Malek"
+                width={500}
+                height={600}
+                className="w-full h-auto "
+                priority
+              />
+
             </div>
 
             {/* Side content */}

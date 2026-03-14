@@ -29,12 +29,12 @@ export default function Header() {
     <header className={`fixed top-0 left-0 right-0 z-[1030] transition duration-300 ${scrolled ? "bg-black" : ""}`}>
       <Container>
         <nav aria-label="Main Navigation">
-          <div className="container mx-auto ">
+          <div className=" mx-auto ">
             <div className="flex items-center justify-between py-3 lg:py-5">
 
               {/* Mobile logo */}
               <Link className="block md:hidden p-0" href="/" title="Home" onClick={close}>
-                1<LogoSVG className="w-20" />
+                <LogoSVG className="w-20" />
               </Link>
 
               {/* Mobile right — CTA + hamburger */}
@@ -59,7 +59,7 @@ export default function Header() {
               {/* Desktop nav */}
               <div className="hidden md:flex items-center justify-between w-full">
                 <Link className="p-0 m-0 hidden md:block" href="/" title="Home">
-                  2  <LogoSVG className="h-16" />
+                   <LogoSVG className="h-16" />
                 </Link>
                 <ul className="flex items-center gap-8 list-none m-0 p-0">
                   {navLinks.map((l) => (
