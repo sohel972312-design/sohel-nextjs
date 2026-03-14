@@ -5,7 +5,7 @@ export default function About() {
 <div className="text-white">
     about page <br/>
     link to <Link className="text-white" href="/contact">Contact1</Link> <br/>
-    link to <Link className="text-white" href="/">Home</Link>
+    link to <Link className="text-white" href="/">Home</Link> 
 </div>
 
 </>
