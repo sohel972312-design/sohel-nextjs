@@ -27,9 +27,9 @@ jobs:
       - name: Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-           server: 92.249.46.62
-  username: u322716506
-  password: YOUR_FTP_PASSWORD
-  port: 21
-  local-dir: ./out/
-  server-dir: /public_html/next/
+          server: 92.249.46.62
+          username: u322716506
+          password: 54321@SAMsam
+          port: 21
+          local-dir: ./out/
+          server-dir: /public_html/next/
