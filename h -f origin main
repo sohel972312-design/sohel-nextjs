@@ -1,0 +1,17 @@
+[33mcommit 1f73bba67c27fbc5c64d1699962812ecedc889db[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: sohel972312-design <sohel972312@gmail.com>
+Date:   Sat Mar 14 17:30:58 2026 +0530
+
+    Initial commit: Remove node_modules and .next, add .gitignore
+
+[33mcommit 7c0363a002adcff2b2a565c384dd638ce3472089[m
+Author: sohel972312-design <sohel972312@gmail.com>
+Date:   Sat Mar 14 17:23:57 2026 +0530
+
+    Remove node_modules, .next, out from git
+
+[33mcommit f21b42654bba2cb024e96913de3a42904ae334ff[m
+Author: sohel972312-design <sohel972312@gmail.com>
+Date:   Sat Mar 14 17:09:01 2026 +0530
+
+    first commit

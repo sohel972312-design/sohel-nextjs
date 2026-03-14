@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brandgreen: #9de600;
+  --color-brandyellow: #ffc20c;
+  --lightblack: #161616;
+  --transparent_theme: #02010100;
+  --textlight: #c7c7c7;
+  
+}
+:root{
+  --p-clr: #c7c7c7;
+}
+p{
+  color:var(--p-clr);
+}
