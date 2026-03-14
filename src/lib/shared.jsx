@@ -149,9 +149,9 @@ export const SectionBadge = ({ label, centerOnMobile = true }) => (
   <div
     className={`w-max relative mb-3 ${centerOnMobile ? "mx-auto" : ""}`}
   >
-    <div className="absolute bg-brandyellow h-2 w-10 rounded-full top-1/2 -translate-y-1/2 left-0" />
+    <div className="absolute bg-brandyellow h-0.5 w-10 rounded-full top-1/2 -translate-y-1/2 left-0" />
     <div className="px-12 text-[#c7c7c7]">{label}</div>
-    <div className="absolute bg-brandyellow h-2 w-10 rounded-full top-1/2 -translate-y-1/2 right-0" />
+    <div className="absolute bg-brandyellow h-0.5 w-10 rounded-full top-1/2 -translate-y-1/2 right-0" />
   </div>
 );
 

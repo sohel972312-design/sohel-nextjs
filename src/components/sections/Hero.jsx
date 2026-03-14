@@ -5,7 +5,7 @@ import { PhoneIconSVG, SocialLinks } from "@/lib/shared";
 
 export default function Hero() {
   return (
-    <div className="relative bg-black pt-32 pb-10 md:pb-20">
+    <div className="relative bg-black pt-32 xl:pt-52 pb-10 md:pb-20">
       <div className="absolute inset-0 bg-[radial-gradient(at_top_left,var(--green_theme)_30%,var(--transparent_theme)_70%)] opacity-18 pointer-events-none"></div>
       <div className="  ">
         <Container>
