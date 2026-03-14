@@ -3,7 +3,7 @@ export default function About() {
     return(
 <>
 <div className="text-white">
-    about page <br/>
+    about page sohel malek <br/>
     link to <Link className="text-white" href="/contact">Contact1</Link> <br/>
     link to <Link className="text-white" href="/">Home</Link> 
 </div>
