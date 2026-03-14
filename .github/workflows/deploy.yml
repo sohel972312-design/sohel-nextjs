@@ -32,4 +32,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
           local-dir: ./out/
-          server-dir: ../domains/sohelmalek.com/public_html/next/
+          server-dir: next/
