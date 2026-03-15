@@ -82,13 +82,13 @@ export default function Header() {
 
         {/* Overlay */}
         <div
-          className={`fixed inset-0 bg-black/70 z-[9998] ${menuOpen ? "" : "hidden"}`}
+          className={`fixed inset-0 bg-black/70 z-9998 ${menuOpen ? "" : "hidden"}`}
           onClick={close}
           aria-hidden="true"
         />
 
         {/* Mobile drawer */}
-        <div className={`fixed top-0 w-[280px] h-screen bg-black z-[9999] transition-[right] duration-300 ease p-6 overflow-y-auto ${menuOpen ? "right-0" : "-right-full"}`} role="dialog" aria-modal="true">
+        <div className={`fixed top-0 w-[280px] h-screen bg-black z-9999 transition-[right] duration-300 ease p-6 overflow-y-auto ${menuOpen ? "right-0" : "-right-full"}`} role="dialog" aria-modal="true">
           <div className="flex justify-end mb-6">
             <button className="bg-transparent border-0 cursor-pointer w-8 h-8" onClick={close} aria-label="Close menu">
               <svg width="30" height="30" viewBox="0 0 532 533" fill="none">
