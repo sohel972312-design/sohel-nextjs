@@ -38,9 +38,9 @@ export default function Header() {
               </Link>
 
               {/* Mobile right — CTA + hamburger */}
-              <div className="flex items-center gap-2 lg:hidden">
-                <div className="hidden sm:inline-block">
-                  <Link className="bg-brandgreen text-black border border-transparent hover:border-brandyellow hover:bg-transparent hover:text-brandyellow px-6 py-3 font-medium rounded-full transition duration-300 inline-block" href="#contact" onClick={close}>
+              <div className="flex items-center gap-2 md:hidden">
+                <div className="hidden lg:inline-block">
+                  <Link className="bg-brandgreen text-black border border-transparent hover:border-brandyellow hover:bg-transparent hover:text-brandyellow px-6 py-3 font-medium rounded-full transition duration-300 inline-block" href="/contact" onClick={close}>
                     <span className="flex items-center justify-center transform translate-z-0 transition duration-300">
                       <PhoneIconSVG className="group-hover:fill-brandyellow group-hover:stroke-brandyellow" />
                       <span className="inline-block ml-1">Get In Touch</span>
@@ -68,7 +68,7 @@ export default function Header() {
                     </li>
                   ))}
                 </ul>
-                <Link className="bg-brandgreen text-black border border-transparent hover:border-brandyellow hover:bg-transparent hover:text-brandyellow px-6 py-3 font-medium rounded-full transition duration-300 inline-block" href="#contact">
+                <Link className="bg-brandgreen text-black border border-transparent hover:border-brandyellow hover:bg-transparent hover:text-brandyellow px-6 py-3 font-medium rounded-full transition duration-300 inline-block" href="/contact">
                   <span className="flex items-center justify-center transform translate-z-0 transition duration-300">
                     <PhoneIconSVG />
                     <span className="inline-block ml-1">Get In Touch</span>

@@ -16,9 +16,14 @@ export default function Footer() {
           {/* Quick links */}
           <div className="flex flex-wrap footer_links justify-center items-baseline text-center">
             <div className="h6 textgreen unbounded_semibold mr-2">Quick Links —</div>
-            {["About Us", "Services", "Blog", "Contact"].map((l) => (
-              <p key={l} className="ml-3 pr-3 mb-2 lg:mb-0">
-                <a href="#">{l}</a>
+            {[
+              { label: 'About Us', href: '/about' },
+              { label: 'Services', href: '/services' },
+              { label: 'Blog', href: '/blogs' },
+              { label: 'Contact', href: '/contact' },
+            ].map((link) => (
+              <p key={link.href} className="ml-3 pr-3 mb-2 lg:mb-0">
+                <Link href={link.href}>{link.label}</Link>
               </p>
             ))}
           </div>

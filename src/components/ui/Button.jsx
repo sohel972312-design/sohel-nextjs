@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Button({ children, variant = "primary", href, className = "" }) {
 
   let styles =
@@ -14,11 +16,21 @@ export default function Button({ children, variant = "primary", href, className 
   styles += ` ${className}`;
 
   if (href) {
-    return (
-      <a href={href} className={styles}>
-        {children}
-      </a>
-    );
+    // Check if it's an external link (starts with http) or internal
+    if (href.startsWith('http') || href.startsWith('//')) {
+      return (
+        <a href={href} className={styles} target="_blank" rel="noopener noreferrer">
+          {children}
+        </a>
+      );
+    } else {
+      // Internal link - use Next.js Link
+      return (
+        <Link href={href} className={styles}>
+          {children}
+        </Link>
+      );
+    }
   }
 
   return (

@@ -1,18 +1,28 @@
+import Container from "@/components/ui/Container";
 import Link from "next/link";
+import Banner from "@/components/sections/Banner";
+
+export const metadata = {
+  title: "About Sohel Malek | Professional Web Designer & Developer",
+  description: "Learn about Sohel Malek's journey as a professional web designer and WordPress developer. Discover my skills, experience, and passion for creating exceptional digital experiences.",
+};
 
 export default function About() {
-  return (
-    <section className="container mx-auto py-10">
-      <h1 className="text-3xl font-bold mb-6">About Sohel Malek123456</h1>
-      <p className="mb-4">About page content here...</p>
-      <div className="space-y-2">
-        <p>
-          Link to <Link className="text-green-400" href="/contact">Contact</Link>
-        </p>
-        <p>
-          Link to <Link className="text-green-400" href="/">Home</Link>
-        </p>
-      </div>
-    </section>
-  );
+    return (
+        <>
+            <Banner
+                title="About Me"
+                breadcrumb={[
+                    { label: "Home", href: "/" },
+                    { label: "About" }
+                ]}
+                backgroundImage="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2072"
+            />
+
+            <Container>
+            </Container>
+
+        </>
+
+    );
 }

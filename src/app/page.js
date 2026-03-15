@@ -15,6 +15,11 @@ import Contact from "@/components/sections/Contact";
 import LetsCta from "@/components/sections/LetsCta";
 import Footer from "@/components/layout/Footer";
 
+export const metadata = {
+  title: "Sohel Malek | Professional Web Designer & WordPress Developer in Gujarat",
+  description: "Expert web designer & WordPress developer crafting modern, responsive websites to grow your business online. View portfolio & services.",
+};
+
 export default function Home() {
   return (
     <main id="one1" className="maininner relative">

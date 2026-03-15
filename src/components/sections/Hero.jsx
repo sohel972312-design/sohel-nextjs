@@ -2,6 +2,7 @@ import Image from "next/image";
 import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
 import { PhoneIconSVG, SocialLinks } from "@/lib/shared";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -24,7 +25,7 @@ export default function Hero() {
                 <p className=" mb-3">
                   A passionate Web Designer, SEO Specialist, and Digital Creator with over 4 years of experience helping brands grow online.
                 </p>
-                <Button href="contact">
+                <Button href="/contact">
                   <span className="flex items-center justify-center transition duration-300">
 
                     <PhoneIconSVG className="w-5 h-5 group-hover:text-brandyellow transition" />
