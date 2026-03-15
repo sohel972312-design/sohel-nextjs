@@ -7,10 +7,10 @@ import { LogoSVG, PhoneIconSVG } from "@/lib/shared";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "about", label: "About" },
-  { href: "services", label: "Services" },
-  { href: "blog", label: "Blog" },
-  { href: "contact", label: "Contact" },
+  { href: "/about", label: "About" },
+  { href: "/services", label: "Services" },
+  { href: "/blog", label: "Blog" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {
