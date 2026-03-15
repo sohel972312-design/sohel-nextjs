@@ -26,7 +26,7 @@ export default function Header() {
   const close = () => setMenuOpen(false);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-[1030] transition duration-300 ${scrolled ? "bg-black" : ""}`}>
+    <header className={`fixed top-0 left-0 right-0 z-1030 transition duration-300 ${scrolled ? "bg-black" : ""}`}>
       <Container>
         <nav aria-label="Main Navigation">
           <div className=" mx-auto ">
