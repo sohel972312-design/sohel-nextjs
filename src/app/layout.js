@@ -1,5 +1,7 @@
 import "./globals.css";
 import TiltInit from "@/components/ui/TiltInit";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 export const metadata = {
   title: "Sohel Malek | Professional Web Designer & WordPress Developer in Gujarat",
@@ -64,8 +66,10 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className="bg-black font-sans" style={{ fontFamily: "Poppins, sans-serif" }}>
-        {children}
+      <body className=" " style={{ fontFamily: "Poppins, sans-serif" }}>
+        <Header />
+        <main>{children}</main>
+        <Footer />
         <TiltInit />
       </body>
     </html>
