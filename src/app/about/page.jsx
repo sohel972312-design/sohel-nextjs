@@ -20,7 +20,7 @@ export default function About() {
             />
 
             <Container>
-              <div className="text-black">sohel malek 1137</div>
+              <div className="text-black">sohel malek 1137 werwerwer</div>
             </Container>
 
         </>
