@@ -23,7 +23,7 @@ export default function Hero() {
                   <div className="text-brandyellow text-2xl leading-8 xl:leading-19 border-brandyellow lg:leading-15 lg:text-5xl xl:text-6xl font-bold font-['Unbounded'] ">Web Designer</div>
                 </div>
                 <p className=" mb-3">
-                  dfgdfgsdfgA passionate Web Designer, SEO Specialist, and Digital Creator with over 4 years of experience helping brands grow online.
+                  A passionate Web Designer, SEO Specialist, and Digital Creator with over 4 years of experience helping brands grow online.
                 </p>
                 <Button href="/contact">
                   <span className="flex items-center justify-center transition duration-300">
