@@ -27,7 +27,7 @@ export default async function BlogsPage() {
         console.error("Error fetching blogs:", error);
         return (
             <section className="container mx-auto py-10">
-                <h1 className="text-3xl font-bold mb-8">Blogs1112</h1> 
+                <h1 className="text-3xl font-bold mb-8">Blogs</h1> 
                 <p className="text-red-500">Failed to load blogs. Please try again later.</p>
             </section>
         );
@@ -44,7 +44,7 @@ export default async function BlogsPage() {
                 backgroundImage="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2072"
             />
             <section className="container mx-auto py-10">
-                <h1 className="text-3xl font-bold mb-8">Blogs</h1>
+                <h1 className="text-3xl font-bold mb-8">Blogs1112323</h1>
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {blogs.map((blog) => (
