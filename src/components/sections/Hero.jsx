@@ -19,7 +19,7 @@ export default function Hero() {
               <div className="text-center xl:text-left">
                 <div className="mb-3">
                   <div className="text-white text-2xl lg:text-2xl xl:text-3xl font-bold font-['Unbounded'] ">I&apos;m</div>
-                  <div className="text-white text-2xl lg:leading-15 lg:text-5xl xl:text-6xl leading-8 xl:leading-19 font-bold font-['Unbounded'] ">Sohel Malek,</div>
+                  <div className="text-white text-2xl lg:leading-15 lg:text-5xl xl:text-6xl leading-8 xl:leading-19 font-bold font-['Unbounded'] ">Sohel Malek11,</div>
                   <div className="text-brandyellow text-2xl leading-8 xl:leading-19 border-brandyellow lg:leading-15 lg:text-5xl xl:text-6xl font-bold font-['Unbounded'] ">Web Designer</div>
                 </div>
                 <p className=" mb-3">
