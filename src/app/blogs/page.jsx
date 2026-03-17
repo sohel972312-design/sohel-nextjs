@@ -27,7 +27,7 @@ export default async function BlogsPage() {
         console.error("Error fetching blogs:", error);
         return (
             <section className="container mx-auto py-10">
-                <h1 className="text-3xl font-bold mb-8">Blogs11</h1> 
+                <h1 className="text-3xl font-bold mb-8">Blogs1112</h1> 
                 <p className="text-red-500">Failed to load blogs. Please try again later.</p>
             </section>
         );
